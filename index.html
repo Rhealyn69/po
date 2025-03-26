@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rhealyn S. Eway</title>
+    <link href="" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.5;
+            /*background-color: #f8f9fa;*/ /* Removed background color */
+            display: flex-center;
+            justify-content: center;
+            align-text center;
+            min-height: 100vh;
+            padding: 20px;
+            /*color: purple;*/ /* Removed text color */
+            /*background-image: url("");*/ /* Removed background image */
+        }
+        /* Resume Container */
+        .resume {
+            display: flex;
+            width: 100%;
+            max-width: 1000px;
+            /*background: rgba(255, 255, 255, 0.9);*/ /* Removed background color */
+            /*border-radius: 15px;*/ /* Removed border-radius */
+            /*box-shadow: 0 10px 40px rgba(0,0,0,0.1);*/ /* Removed box-shadow */
+            overflow: hidden;
+            padding: 20px;
+            flex-wrap: wrap;
+            justify-content: space-between; /* To space out sidebar and content */
+        }
+        /* Sidebar */
+        .sidebar {
+            /*background-color: #C0C0C0;*/ /* Removed background color */
+            /*color: purple;*/ /* Removed text color */
+            width: 250px;
+            padding: 20px;
+            text-align: Center;
+        }
+        .sidebar img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            border: 5px solid #66CDAA;
+            margin-bottom: 15px;
+        }
+        .sidebar h1 {
+            font-size: 1em;
+            margin-bottom: 10px;
+            font-family: 'Sacramento', cursive;
+        }
+        .sidebar p {
+            font-size: 1em;
+            margin-bottom: 10px;
+        }
+        /* Main Content */
+        .main {
+            flex-grow: center;
+            padding: 20px;
+            width: 100%;
+        }
+        .section {
+            margin-bottom: 20px;
+            /*border-left: 5px solid #66CDAA;*/ /* Removed border-left */
+            padding-left: 15px;
+        }
+        .section h2 {
+            /*color: #66CDAA;*/ /* Removed text color */
+            font-size: 1em;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        ul li {
+            font-size: 1em;
+            padding: 5px 0;
+        }
+        /* Footer */
+        .footer {
+            text-align: front;
+            font-size: 14px;
+            /*color: #4A6572;*/ /* Removed text color */
+            margin-top: 20px;
+        }
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .resume {
+                flex-direction: column;
+                align-items: front;
+            }
+            .sidebar {
+                width: 100%;
+                text-align:front;
+            }
+            .main {
+                width: 100%;
+            }
+        }
+        /*body {
+            background-color: pink;
+        }*/ /* Removed background color */
+        /* .resume, .sidebar, .main, .section, .section h2, ul, ul li, .footer {
+            color: #FF69B4; /* Pink text color */
+        } */
+    </style>
+</head>
+<body>
+    <div class="resume">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <img src="1742892408522.jpg" alt="Profile Picture">
+            <h1>Rhealyn S. Eway</h1>
+            <p>Purok San Pedro, Panduma Sr., Tukuran, Zamboanga Del Sur</p>
+            <p>📞 09811489365</p>
+            <p>📧 <strong>Email:</strong> rhealyneway12@gmail.com</p>
+            <p>📍 <strong>Location:</strong> Panduma Sr., Tukuran</p>
+        </div>
+        <!-- Main Content -->
+        <div class="main">
+            <div class="section">
+                <h2>Career Objective</h2>
+                <p>To utilize my knowledge and passion for education, inspiring students and enhancing my teaching skills.</p>
+            </div>
+            <div class="section">
+                <h2>Educational Background</h2>
+                <ul>
+                    <li>📖 <strong>Elementary:</strong> Tukuran Central Elementary School</li>
+                    <li>📘 <strong>Secondary:</strong> Tukuran Technical Vocational High School</li>
+                    <li>🎓 <strong>Tertiary:</strong> Zamboanga Del Sur Provincial Government College - Tukuran Campus</li>
+                </ul>
+            </div>
+            <div class="section">
+                <h2>Skills</h2>
+                <ul>
+                    <li>💹 Business Budgeting</li>
+                    <li>💰 Public Accountant</li>
+                    <li>🧾 Data Entry</li>
+                    <li>📈 Data Analyst</li>
+                </ul>
+            </div>
+            <div class="section">
+                <h2>Reference</h2>
+                <p><strong>Michelle Luna</strong></p>
+                <p>📍 Cebu City</p>
+                <p>📞 09725387389</p>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy; 2025 Rhealyn S. Eway. All rights reserved.</p>
+    </div>
+</body>
+</html>
